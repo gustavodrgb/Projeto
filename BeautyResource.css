@@ -31,6 +31,7 @@ body * {
 
 body {
     background: var(--bg-url) no-repeat top center/cover;
+    height: 100vh;
 }
 
 /* painel */
@@ -167,3 +168,15 @@ ul {
 #rocketseat-link:hover {
     background: var(--link-color)
 }
+
+/* media queries */
+
+:root {
+    -bg--url: url(./assets/bg-desktop.jpg)
+}
+
+.light {
+    -bg--url: url(./assets/bg-desktop-light.jpg)
+}
+
+
